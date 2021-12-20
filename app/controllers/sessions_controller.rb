@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-  
+  byebug
   def index
     session[:session_hello] ||= "World"
     cookies[:cookies_hello] ||= "World"
